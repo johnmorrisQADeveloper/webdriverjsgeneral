@@ -1,0 +1,23 @@
+npm install --save-dev selenium-webdriver
+npm install --save-dev chai
+npm install --save-dev mocha
+npm install --save-dev jasmine-node
+npm install --save-dev jasmine
+npm install -g jasmine
+npm install -g mochawesome
+npm install --save-dev mochawesome
+npm install mochawesome
+
+npm install -g protractor
+
+webdriver-manager update
+webdriver-manager start
+
+node web_promiseManager.js
+
+mocha mochatest01.js --reporter mochawesome
+
+http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriver/index.html
+
+mocha -t 20000 --harmony_async_await Async_web_mocha.js
+
