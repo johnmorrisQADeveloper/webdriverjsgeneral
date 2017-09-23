@@ -16,6 +16,8 @@ class BasePage {
         driver.close();
         driver.quit();
     }
+
+
 }
 
 module.exports = BasePage;

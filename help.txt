@@ -21,3 +21,4 @@ http://seleniumhq.github.io/selenium/docs/api/javascript/module/selenium-webdriv
 
 mocha -t 20000 --harmony_async_await Async_web_mocha.js
 
+npm install --save-dev jimp

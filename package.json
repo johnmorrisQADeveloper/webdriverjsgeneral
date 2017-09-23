@@ -11,12 +11,23 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
+    "blink-diff": "^1.0.13",
     "chai": "^4.1.2",
+    "easyimage": "^2.1.0",
+    "html2canvas": "^0.5.0-beta4",
     "jasmine": "^2.8.0",
     "jasmine-node": "^1.14.5",
+    "jimp": "^0.2.28",
     "mocha": "^3.5.0",
     "mochawesome": "^2.3.0",
     "selenium-webdriver": "^3.5.0",
-    "should": "^13.0.1"
+    "should": "^13.0.1",
+    "wdio-screenshot": "^0.6.0",
+    "webdriverio": "^4.8.0",
+    "webshot": "^0.18.0",
+    "zombiecss": "^1.0.5"
+  },
+  "dependencies": {
+    "jimp": "^0.2.28"
   }
 }
